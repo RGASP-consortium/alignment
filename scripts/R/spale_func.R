@@ -8,7 +8,7 @@ get.spale.data.fn <- function(...) {
 read.dataset.info <- function(fn = get.spale.data.fn("reads", "datasets.txt"),
                               id.pattern = NULL) {
   x <- read.delim(fn, quote="", as.is=TRUE)
-  if(!is.null(id.pattern)) x <- x[ grepl(id.pattern, x), ]
+  if(!is.null(id.pattern)) x <- x[ grepl(id.pattern, x$id), ]
   return(x)
 }
 
@@ -16,6 +16,7 @@ read.dataset.info <- function(fn = get.spale.data.fn("reads", "datasets.txt"),
 ## deprecate this:
 read.total.frag.count <- function(...) {
   warn("deprecated!")
+
   x <- read.dataset.info(...)
   counts <- x$fragments
   names(counts) <- x$id

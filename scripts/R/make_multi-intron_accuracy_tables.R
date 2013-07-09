@@ -1,4 +1,4 @@
-## Get table of multi-intron precision and recall from sim accuracy stats
+## Get tables of multi-intron precision and recall from sim accuracy stats
 
 source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
 
@@ -69,6 +69,7 @@ method.info <- method.info[ method.info$name != "Truth", ] # We have no stats fo
 ## Read dataset info
 datasets <- read.dataset.info(id.pattern="^sim")
 
+## Process each dataset
 for(dataset in datasets$id) {
   ## Read intron counts
   in.files <- file.path(data.dir, paste("sa_intron_multi.", method.info$team, ".", dataset, "_", method.info$number, ".txt", sep=""))

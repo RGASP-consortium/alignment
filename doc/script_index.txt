@@ -82,10 +82,19 @@ make_alignment_vs_cufflinks_gaps_tables.R
   are incorporated into transcripts by Cufflinks
 
 make_multi-intron_accuracy_tables.R:
-  Get tables of multi-intron precision and recall from sim accuracy stats
+  Get tables of multi-intron precision and recall from sim accuracy
+  stats
 
 make_pair_ali_yield_table.R
   Get table of alignment yield for read pairs
 
 make_sim_eval_tables.R
   Make tables with fundamental simulation accuracy stats
+
+plot_cufflinks_sim_accuracy.R
+  Plot cufflinks sim accuracy as abacus plot, and make corresponding
+  tables
+
+plot_cufflinks_stats_primary_vs_all.R
+  Make figure comparing transcript performance using all vs only
+  primary alignments

@@ -7,7 +7,7 @@ Bioinformatics Institute, where the RGASP evaluation was carried out.
 We are working to generalize the code and expand the documentation to
 simplify reuse for other projects.
 
-The evaluatation considered alignments of both real and simulated
+The evaluation considered alignments of both real and simulated
 RNA-seq data. The simulated data was generated using the [BEERS]
 simulator, and evaluated using the scripts in this repository. Some of
 the scripts herein specifically deal with alignments of simulated
@@ -23,8 +23,7 @@ https://github.com/sbotond/paper-rgasp3-cov.
 These scripts extract metrics relating to the coverage of genomic
 features by alignments, and produce plots of those metrics.
 
-Please see further documentation in markdown format (.md) under the
-doc directory.
+Please see further documentation under the doc directory.
 
 If using this software, please cite:  
 Engstr&ouml;m et al. Systematic evaluation of spliced aligners for RNA-seq, _submitted_.

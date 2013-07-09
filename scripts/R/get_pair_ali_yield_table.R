@@ -1,3 +1,6 @@
+## Get table of alignment yield for read pairs
+## Input: files produced by validate_bam.pl
+
 source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
 source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_valbam_func.R"))
 

@@ -77,3 +77,6 @@ primarily based on output from the evaluation scripts in the eval
 directory. The ouput from the the quality control script
 preproc_aln/validate_bam.pl is also used by some of the R scripts.
 
+get_multi-intron_prec_recall.R:
+  Get table of multi-intron precision and recall from sim accuracy stats
+

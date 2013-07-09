@@ -1,9 +1,13 @@
+This file lists all the scripts in the repository, with short
+descriptions. Further documentation for each script is typically
+provided in the code or through the usage messages which are printed
+when the scripts are run without appropriate arguments.
 
 Directory eval
 --------------
 
-Scripts that collect statistics about alignments or transcript
-reconstruction results.
+This directory contains scripts that collect statistics about
+alignments or transcript reconstruction results.
 
 calc_sim_accuracy.pl:
   Calc accuracy for alignments of simulated reads
@@ -28,18 +32,33 @@ gap_stats.pl:
 get_gap_mm_pos.pl:
   Determine positional distribution of indels, introns and mismatches
 
-
 Directory misc
 --------------
 
-Miscellaneous scripts
+This directory contains miscellaneous scripts.
 
 get_gene_types_from_gtf.pl:
   From a GTF file, extract the type for each gene
 
+Directory preproc_aln
+----------------------
+
+This directory contains scripts for preprocessing and checking
+alignment files prior to running the evaluation scripts.
+
+adapt_sam_for_sim_eval.pl:
+  Adapt alignment files for evaluation by calc_sim_accuracy.pl or the
+  scripts in the BEERS toolkit.
+
+validate_bam.pl:
+  Check that BAM files comply with format requirements and extract
+  high-level statistics.
 
 Directory preproc_sim
 ---------------------
+
+This directory contains scripts for preprocessing simulated data prior
+to running the evaluation scripts.
 
 calc_indel_shift.pl:
   Determine placement ambiguity for each indel in a simulated transcriptome
@@ -49,3 +68,12 @@ filter_gtf_by_expr.pl
 
 get_junction_coverage.pl:
   Compute the read coverage for each splice junction in a set of alignments
+
+Directory R
+-----------
+
+This directory contains R scripts that produce tables and plots,
+primarily based on output from the evaluation scripts in the eval
+directory. The ouput from the the quality control script
+preproc_aln/validate_bam.pl is also used by some of the R scripts.
+

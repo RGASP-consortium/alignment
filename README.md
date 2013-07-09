@@ -13,21 +13,20 @@ simulator, and evaluated using the scripts in this repository. Some of
 the scripts herein specifically deal with alignments of simulated
 data, extracting accuracy metrics by comparison with the true
 alignments and/or simulated transcript models. Other scripts extract
-more general alignments statistics, and can be applied to both
+more general alignments statistics, and can be applied both to
 alignments of real and simulated data. Most scripts that process
 alignments expect input in SAM or BAM format.
 
 A subset of the software written for the RGASP spliced aligner
 evaluation are in a separate repository:
-https://github.com/sbotond/paper-rgasp3-cov
+https://github.com/sbotond/paper-rgasp3-cov.
 These scripts extract metrics relating to the coverage of genomic
-features by alignments. Code to produce a range of plots based on
-those metrics are also included.
-
-If using this software, please cite:
-Engstr&ouml;m et al. Systematic evaluation of spliced aligners for RNA-seq, _submitted_.
+features by alignments, and produce plots of those metrics.
 
 Please see further documentation in markdown format (.md) under the
 doc directory.
+
+If using this software, please cite:  
+Engstr&ouml;m et al. Systematic evaluation of spliced aligners for RNA-seq, _submitted_.
 
 [BEERS]: http://cbil.upenn.edu/BEERS/

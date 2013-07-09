@@ -24,8 +24,8 @@ These scripts extract metrics relating to the coverage of genomic
 features by alignments, and produce plots of those metrics.
 
 Dependencies:
-- [Genoman] (perl library required by some of the perl scripts)
-- [SAMTools] (for BAM file I/O)
+- [Genoman] - perl library required by some of the perl scripts
+- [SAMTools] - for BAM file I/O
 - R packages: gplots, plotrix, RColorBrewer
 
 Please see further documentation under the doc directory.

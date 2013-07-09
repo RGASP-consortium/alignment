@@ -1,0 +1,51 @@
+
+Directory eval
+--------------
+
+Scripts that collect statistics about alignments or transcript
+reconstruction results.
+
+calc_sim_accuracy.pl:
+  Calc accuracy for alignments of simulated reads
+
+cmp_alignment_and_cufflinks_gaps.pl:
+  Compute rates for incorporation of false junctions (from alignments)
+  into transcript models.
+
+count_intronic_aln.pl:
+  Count the number of alignments in introns and intronic repeats
+
+count_mm_binned.pl:
+  Calculate the distribution of number of mismatches per alignment
+  stratified by mean read quality
+
+cufflinks_eval.pl:
+  Evaluate transcript reconstruction performance
+
+gap_stats.pl:
+  Collect stats about introns and other gap operation usage
+
+get_gap_mm_pos.pl:
+  Determine positional distribution of indels, introns and mismatches
+
+
+Directory misc
+--------------
+
+Miscellaneous scripts
+
+get_gene_types_from_gtf.pl:
+  From a GTF file, extract the type for each gene
+
+
+Directory preproc_sim
+---------------------
+
+calc_indel_shift.pl:
+  Determine placement ambiguity for each indel in a simulated transcriptome
+
+filter_gtf_by_expr.pl
+  Filter simulated transcript GTF file to exclude silent transcripts
+
+get_junction_coverage.pl:
+  Compute the read coverage for each splice junction in a set of alignments

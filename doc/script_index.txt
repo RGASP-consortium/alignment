@@ -98,3 +98,9 @@ plot_cufflinks_sim_accuracy.R
 plot_cufflinks_stats_primary_vs_all.R
   Make figure comparing transcript performance using all vs only
   primary alignments
+
+spale_func.R
+  General functions used by the other R scripts
+
+spale_valbam_func.R
+  Functions related to BAM file validation

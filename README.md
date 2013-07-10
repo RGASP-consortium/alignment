@@ -19,7 +19,7 @@ alignments expect input in SAM or BAM format.
 
 A subset of the software written for the RGASP spliced aligner
 evaluation are in a separate repository:
-https://github.com/sbotond/paper-rgasp3-cov.
+https://github.com/RGASP-consortium/coverage
 These scripts extract metrics relating to the coverage of genomic
 features by alignments, and produce plots of those metrics.
 
@@ -32,6 +32,9 @@ Please see further documentation under the doc directory.
 
 If using this software, please cite:  
 Engstr&ouml;m et al. Systematic evaluation of spliced aligners for RNA-seq, _submitted_.
+
+If you have questions about this software, please write to
+par.engstrom@scilifelab.se.
 
 [BEERS]: http://cbil.upenn.edu/BEERS/
 [Genoman]: http://www.ebi.ac.uk/~engstrom/genoman/

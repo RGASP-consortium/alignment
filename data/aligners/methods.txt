@@ -1,0 +1,8 @@
+name	team	number	description	color	style
+GSNAP	Thomas_Wu	1	GSNAP	#00E0D0	1
+MapSplice	MapSplice	1	MapSplice	#984EA3	1
+SMALT	Sanger	2	SMALT	#E5C494	1
+STAR 1-pass	Gingeras_lab	1	STAR 1-pass	#4DAF4A	1
+TopHat v1	TopHat	1	TopHat version 1.3.2	#A0A0A0	1
+TopHat v2	TopHat	3	TopHat version 2.0.3	#A0A0A0	3
+Truth	Truth	1	Correct alignments from simulator	#000000	1

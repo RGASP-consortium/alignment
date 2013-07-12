@@ -104,3 +104,5 @@ general_functions.R
 
 valbam_functions.R
   Functions related to BAM file validation
+
+We are working on additing more R scripts, including plotting scripts!

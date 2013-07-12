@@ -1,0 +1,10 @@
+id	name	fragments
+LID16627	K562 whole cell replicate 1	113588758
+LID16628	K562 whole cell replicate 2	119053315
+LID8465	K562 cytoplasmic fraction replicate 1	124826068
+LID8466	K562 cytoplasmic fraction replicate 2	88445339
+LID8556	K562 nuclear fraction replicate 1	117113622
+LID8557	K562 nuclear fraction replicate 2	105769104
+mouse	Mouse brain	57187342
+sim1	Simulation 1	40000000
+sim2	Simulation 2	40000000

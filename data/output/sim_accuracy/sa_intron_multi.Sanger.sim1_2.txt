@@ -1,0 +1,9 @@
+i	uni.mi.read.actual	uni.mi.read.reported	uni.mi.read.correct	uni.mi.pair.actual	uni.mi.pair.reported	uni.mi.pair.correct	amb.mi.read.actual	amb.mi.read.reported	amb.mi.read.correct	amb.mi.pair.actual	amb.mi.pair.reported	amb.mi.pair.correct
+0	58964886	70651437	72415190	25904074	34089313	35720580	47763	127877	127877	41472	116270	120530
+1	13735014	2652296	888543	6862712	2361762	858721	73322	0	0	40686	6386	2126
+2	591854	0	0	3517353	142074	13848	6443	0	0	35795	0	0
+3	11532	0	0	288942	0	0	249	0	0	4254	0	0
+4	409	0	0	19337	0	0	84	0	0	387	0	0
+5	38	0	0	693	0	0	16	0	0	44	0	0
+6	0	0	0	38	0	0	0	0	0	17	0	0
+7	0	0	0	0	0	0	0	0	0	1	0	0

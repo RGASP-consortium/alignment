@@ -1,0 +1,13 @@
+Unknown read ID	0
+Mate number error	0
+Non-alignment	0
+Extra primary alignment	0
+Only secondary alignment for mate	0
+Only secondary alignment for fragment	0
+Max alignments for any read	1167
+Short sequence	0
+Long sequence	0
+Spliced	11726160
+Spliced XS	11726160
+Unspliced	69298637
+Unspliced XS	3989924

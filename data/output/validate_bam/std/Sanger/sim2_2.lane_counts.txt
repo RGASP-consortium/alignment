@@ -1,0 +1,2 @@
+lane	total	mate1	mate2
+sim2	40000000	38605509	38465321

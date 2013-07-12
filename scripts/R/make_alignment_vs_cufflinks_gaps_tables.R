@@ -1,6 +1,6 @@
 ## Tabulate frequencies at which true and false introns from alignments are incorporated into transcripts by Cufflinks
 
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
 data.dir <- get.spale.data.fn("output", "cufflinks", "eval", "acg")
 

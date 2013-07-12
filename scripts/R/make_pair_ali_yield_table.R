@@ -1,8 +1,8 @@
 ## Get table of alignment yield for read pairs
 ## Input: files produced by validate_bam.pl
 
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_valbam_func.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "valbam_functions.R"))
 
 in.dir <- get.spale.data.fn("output", "validate_bam", "std")
 out.fn <- "pair_ali_counts.txt"

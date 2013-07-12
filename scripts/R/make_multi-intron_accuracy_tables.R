@@ -1,6 +1,6 @@
 ## Get tables of multi-intron precision and recall from sim accuracy stats
 
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
 data.dir <- get.spale.data.fn("output", "sim_accuracy")
 col.uni <- c("uni.mi.read.actual", "uni.mi.read.reported", "uni.mi.read.correct",

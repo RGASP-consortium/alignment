@@ -1,6 +1,6 @@
 ## Make tables with fundamental simulation accuracy stats
 
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
 in.dir <- get.spale.data.fn("output", "sim_accuracy")
 

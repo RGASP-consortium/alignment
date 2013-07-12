@@ -4,7 +4,7 @@
 library(RColorBrewer)
 abacus.col <- brewer.pal(4, "Set1")[-1]
 
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
 sim.dir <- get.spale.data.fn("sim_logs")
 stats.dir <- get.spale.data.fn("output", "cufflinks", "eval")

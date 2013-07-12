@@ -1,6 +1,6 @@
 ## Make figure comparing transcript performance using all vs only primary alignments
 
-source(file.path(Sys.getenv("SPALE_HOME"), "scripts", "R", "spale_func.R"))
+source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
 sim.dir <- get.spale.data.fn("sim_logs")
 stats.dir <- get.spale.data.fn("output", "cufflinks", "eval", "ce.stranded")

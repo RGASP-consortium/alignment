@@ -1,6 +1,6 @@
 get.spale.data.fn <- function(...) {
-  base.dir <- Sys.getenv("SPALE_DATA")
-  if(base.dir == "") stop("Environment variable SPALE_DATA undefined")
+  base.dir <- Sys.getenv("RGASP_ALI_DATA")
+  if(base.dir == "") stop("Environment variable RGASP_ALI_DATA undefined")
   file.path(base.dir, ...)
 }
 

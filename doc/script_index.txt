@@ -99,8 +99,16 @@ plot_cufflinks_stats_primary_vs_all.R
   Make figure comparing transcript reconstruction performance using
   all vs. only primary alignments
 
+plot_intron_known_vs_novel.R
+  Plot ROC-like curve for annotated vs. novel junctions
+
 plot_sim_indel_accuracy.R
   Plot heatmaps of indel accuracy for simulated data
+
+plot_sim_intron_roc.R
+  Plot ROC-like curve for splice junction discovery. The counts of
+  true and false junctions at each threshold are also written to a
+  text file.
 
 plot_sim_read_placement_bars.R
   Plot barcharts showing accuracy of read placement
@@ -118,4 +126,4 @@ valbam_functions.R
   Functions related to BAM file validation
 
 We are working on additing more R scripts! (Some generalization is
-needed to make the usable outside of RGASP / EBI.)
+needed to make them usable outside of RGASP / EBI.)

@@ -1,11 +1,11 @@
-get.spale.data.fn <- function(...) {
+get.rgasp.ali.data.fn <- function(...) {
   base.dir <- Sys.getenv("RGASP_ALI_DATA")
   if(base.dir == "") stop("Environment variable RGASP_ALI_DATA undefined")
   file.path(base.dir, ...)
 }
 
 
-read.dataset.info <- function(fn = get.spale.data.fn("reads", "datasets.txt"),
+read.dataset.info <- function(fn = get.rgasp.ali.data.fn("reads", "datasets.txt"),
                               id.pattern = NULL) {
   x <- read.delim(fn, quote="", as.is=TRUE)
   if(!is.null(id.pattern)) x <- x[ grepl(id.pattern, x$id), ]
@@ -34,8 +34,8 @@ read.dataset.ids <- function(...) {
 }
 
 
-read.method.info <- function(method.fn = get.spale.data.fn("aligners", "methods.txt"),
-                             style.fn = get.spale.data.fn("aligners", "styles.txt"),
+read.method.info <- function(method.fn = get.rgasp.ali.data.fn("aligners", "methods.txt"),
+                             style.fn = get.rgasp.ali.data.fn("aligners", "styles.txt"),
                              include.exploratory=TRUE )
 {
 

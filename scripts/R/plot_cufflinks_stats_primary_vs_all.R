@@ -2,8 +2,8 @@
 
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
-sim.dir <- get.spale.data.fn("sim_logs")
-stats.dir <- get.spale.data.fn("output", "cufflinks", "eval", "ce.stranded")
+sim.dir <- get.rgasp.ali.data.fn("sim_logs")
+stats.dir <- get.rgasp.ali.data.fn("output", "cufflinks", "eval", "ce.stranded")
 
 read.general.stats <- function(cufflinks.ver, aln.set, data.set, method.info, ...) {
 

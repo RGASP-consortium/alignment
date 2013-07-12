@@ -6,8 +6,8 @@ abacus.col <- brewer.pal(4, "Set1")[-1]
 
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
-sim.dir <- get.spale.data.fn("sim_logs")
-stats.dir <- get.spale.data.fn("output", "cufflinks", "eval")
+sim.dir <- get.rgasp.ali.data.fn("sim_logs")
+stats.dir <- get.rgasp.ali.data.fn("output", "cufflinks", "eval")
 
 read.tx.stats <- function(strand.mode, cufflinks.ver, aln.set, data.set, method.info) {
 

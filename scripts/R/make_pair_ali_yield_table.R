@@ -4,7 +4,7 @@
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "valbam_functions.R"))
 
-in.dir <- get.spale.data.fn("output", "validate_bam", "std")
+in.dir <- get.rgasp.ali.data.fn("output", "validate_bam", "std")
 out.fn <- "pair_ali_counts.txt"
 
 read.counts <- function(data.set, paths, method.info) {

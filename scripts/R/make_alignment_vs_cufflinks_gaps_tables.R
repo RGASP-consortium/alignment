@@ -2,7 +2,7 @@
 
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
-data.dir <- get.spale.data.fn("output", "cufflinks", "eval", "acg")
+data.dir <- get.rgasp.ali.data.fn("output", "cufflinks", "eval", "acg")
 
 read.acg.freq <- function(fn) {
   counts <- read.delim(fn, row.names=1)

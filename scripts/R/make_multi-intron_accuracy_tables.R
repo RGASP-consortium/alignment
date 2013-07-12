@@ -2,7 +2,7 @@
 
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
-data.dir <- get.spale.data.fn("output", "sim_accuracy")
+data.dir <- get.rgasp.ali.data.fn("output", "sim_accuracy")
 col.uni <- c("uni.mi.read.actual", "uni.mi.read.reported", "uni.mi.read.correct",
              "uni.mi.pair.actual", "uni.mi.pair.reported", "uni.mi.pair.correct")
 col.amb <- c("amb.mi.read.actual", "amb.mi.read.reported", "amb.mi.read.correct",

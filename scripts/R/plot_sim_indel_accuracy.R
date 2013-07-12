@@ -1,4 +1,4 @@
-## Plot indel accuracy stats for simulated data
+## Plot heatmaps of indel accuracy for simulated data
 
 library(gplots)
 library(RColorBrewer)

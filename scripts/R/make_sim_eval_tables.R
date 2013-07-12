@@ -2,7 +2,7 @@
 
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 
-in.dir <- get.spale.data.fn("output", "sim_accuracy")
+in.dir <- get.rgasp.ali.data.fn("output", "sim_accuracy")
 
 
 read.stats <- function(fn) {

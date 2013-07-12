@@ -92,12 +92,24 @@ make_sim_eval_tables.R
   Make tables with fundamental simulation accuracy stats
 
 plot_cufflinks_sim_accuracy.R
-  Plot cufflinks sim accuracy as abacus plot, and make corresponding
-  tables
+  Plot transcript reconstruction performance on simulated data, and
+  make corresponding tables
 
 plot_cufflinks_stats_primary_vs_all.R
-  Make figure comparing transcript performance using all vs only
-  primary alignments
+  Make figure comparing transcript reconstruction performance using
+  all vs. only primary alignments
+
+plot_sim_indel_accuracy.R
+  Plot heatmaps of indel accuracy for simulated data
+
+plot_sim_read_placement_bars.R
+  Plot barcharts showing accuracy of read placement
+
+plot_sim_splice_accuracy_scatter.R
+  Scatter plots of splice accuracy for simulated data
+
+plot_sim_splice_recall_by_coverage.R
+  Plot splice recall for simulated data stratified by true junction coverage
 
 general_functions.R
   General functions used by the other R scripts
@@ -105,4 +117,5 @@ general_functions.R
 valbam_functions.R
   Functions related to BAM file validation
 
-We are working on additing more R scripts, including plotting scripts!
+We are working on additing more R scripts! (Some generalization is
+needed to make the usable outside of RGASP / EBI.)

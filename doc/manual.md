@@ -11,8 +11,9 @@ Prerequisites
 -------------
 
 First, make sure the dependencies are installed (see README.md). Then
-set the following two environment variable, preferably in your
-~/.bash_profile (or the equivalent file if you are using a shell other than bash):
+set the following two environment variables, preferably in your
+~/.bash_profile (or the equivalent file if you are using a shell other
+than bash):
 
 - RGASP_ALI_HOME: Base directory of this package
 - RGASP_ALI_DATA: Data directory to use (can be your own data or the sample data included)
@@ -126,8 +127,8 @@ The R scripts do not take any arguments, and can be executed as:
 It does not matter what your current working directory is for the
 functioning of the R scripts. They will find the input files using the
 environment variables. However, the scripts will create their output
-files in the current working working directory, so you may want to
-create an empty directory and run the scripts from there.
+files in the current working directory, so you may want to create an
+empty directory and run the scripts from there.
 
 Most of the R scripts can be run using the sample data files included
 under *data/output* in this repository. For this to work, you must set

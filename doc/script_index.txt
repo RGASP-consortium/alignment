@@ -99,6 +99,9 @@ plot_cufflinks_stats_primary_vs_all.R
   Make figure comparing transcript reconstruction performance using
   all vs. only primary alignments
 
+plot_gap_mm_pos.R
+  Plot positional distribution of gaps and mismatches in read sequences
+
 plot_intron_known_vs_novel.R
   Plot ROC-like curve for annotated vs. novel junctions
 

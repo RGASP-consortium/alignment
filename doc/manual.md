@@ -142,6 +142,7 @@ environment variables are correctly set:
 - make_multi-intron_accuracy_tables.R
 - make_pair_ali_yield_table.R
 - make_sim_eval_tables.R
+- plot_gap_mm_pos.R
 - plot_intron_known_vs_novel.R
 - plot_sim_indel_accuracy.R
 - plot_sim_intron_roc.R

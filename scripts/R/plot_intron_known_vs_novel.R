@@ -1,7 +1,5 @@
 ## Plot ROC-like curves for annotated vs. novel junctions
 
-options(width=150)
-
 source(file.path(Sys.getenv("RGASP_ALI_HOME"), "scripts", "R", "general_functions.R"))
 data.dir <- get.rgasp.ali.data.fn("output", "gap_stats", "primary", "iac")
 glyph.cex <- 1.5

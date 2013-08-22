@@ -74,9 +74,6 @@ sub process_sam {
 	# Ignore non-alignments
 	next if($sam[1] & 0x4);
 
-	# Count alignment
-	$total++;
-
 	# Get coords
 	my $chr = $sam[2];
 	my $start = $sam[3];
@@ -84,13 +81,13 @@ sub process_sam {
 	my $end = $start + $span - 1;
 
 	# Check if fully intronic
-	next if(calc_overlap($introns, $chr, $start, $end) < $span);
-
-	# Check if overlaps repeats
-	if(calc_overlap($repeats, $chr, $start, $end)) {
-	    $intronic_repeat++;
-	} else {
-	    $intronic_non_repeat++;
+	if(calc_overlap($introns, $chr, $start, $end) == $span) {
+	    # Check if overlaps repeats
+	    if(calc_overlap($repeats, $chr, $start, $end)) {
+		$intronic_repeat++;
+	    } else {
+		$intronic_non_repeat++;
+	    }
 	}
 
 	# Progress indicator

@@ -70,9 +70,7 @@ ID for each protocol, and _name_ should also be unique.
 
 The repository currently contains a file methods_all.txt with all
 protocols evaluated in RGASP, as well as a file methods.txt with a
-subset of protocols, for which data files are provided. (Following
-publication of the manuscript we shall add data files for all
-protocols.)
+subset of protocols, for which data files are provided.
 
 ### styles.txt ###
 
@@ -105,8 +103,9 @@ directory _data/output_ in the repository. These data files are read by the
 R scripts that generate plots and tables.
 
 Currently a subset of the data files from RGASP are provided for
-demonstration purposes. We will add all relevant data files following
-publication of the manuscript.
+demonstration purposes. We aim to provide all relevant data files in
+the near future (due to the size of some files it would be impractical
+to include them in this repository).
 
 Running the scripts
 -------------------

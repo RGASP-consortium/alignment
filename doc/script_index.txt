@@ -127,6 +127,3 @@ general_functions.R
 
 valbam_functions.R
   Functions related to BAM file validation
-
-We are working on additing more R scripts! (Some generalization is
-needed to make them usable outside of RGASP / EBI.)
